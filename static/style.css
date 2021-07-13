@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.hero {
+  height: 500px;
+}
+
+.contracter {
+  height: 450px;
+}
+.contracter_name {
+  font-family: "Poppins", sans-serif;
+}
+
+.nav-bar-name:hover {
+  color: #fe5f1e;
+}
+.factory {
+  border-radius: 9999px;
+}

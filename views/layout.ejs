@@ -1,0 +1,51 @@
+
+   <!DOCTYPE html>
+   <html lang="en">
+   
+   <head>
+       <meta charset="UTF-8" />
+       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <title>Document</title>
+       <link rel="preconnect" href="https://fonts.gstatic.com" />
+       <link rel="preconnect" href="https://fonts.gstatic.com" />
+       <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap"
+           rel="stylesheet" />
+       <link rel="stylesheet" href="/dist/app.css" />
+       <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+       <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+       <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+       <link rel="stylesheet" href="style.css">
+   </head>
+   
+   <body>
+       <nav class=" mx-auto flex items-center justify-between py-3 ">
+           <div class="px-4">
+               <a href="/" class="inline-block px-4 rounded-full flex items-center">
+                   <!-- <img src="/img/bag.jpg" alt="logo" class="shopping" height="40px" width="40px" /> -->
+                   <span class="contracter_name text-red-500 font-bold pl-3 text-2xl">Saroj kumar contracter</span>
+               </a>
+           </div>
+           <div>
+               <ul class="flex items-center mx-auto px-5">
+                   <li class=" nav-bar-name ml-6"><a href="/">home</a></li>
+                   <li class=" nav-bar-name ml-6"><a href="/info">Info</a></li>
+                   <li class=" nav-bar-name ml-6"><a href="#">services</a></li>
+                   <li class=" nav-bar-name ml-6"><a href="#">klints</a></li>
+                   <li class=" nav-bar-name ml-6">
+                       <a href="#" class="inline-block px-4 py-2 rounded-full flex items-center">
+                           <img src="/img/call.png" alt="logo" class="call_now" height="29px" width="29px" />
+                       </a>
+                   </li>
+               </ul>
+           </div>
+       </nav>
+       <%- body %>
+       <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+       <script>
+           AOS.init();
+       </script>
+       <script src="/app.js"></script>
+   </body>
+   
+   </html>
